@@ -1,0 +1,3 @@
+---
+# vars file for config-manage
+  java: "openjdk-8-jre-headless"

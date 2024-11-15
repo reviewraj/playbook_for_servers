@@ -1,0 +1,10 @@
+
+  - name: installing nodejs
+    apt:
+      name: nodejs
+      state: present 
+  - name: installing javaa
+    apt:
+      name: "{{ java }}"
+      state: present
+
